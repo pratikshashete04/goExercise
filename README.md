@@ -10,8 +10,7 @@ This repository consists of the basic programs of Go Language
 func function_name(parameter_list) (return_types){
     body_of_the_function
 }
- 
-==========================================================================================================================
+
 2. Slice
 3. Structs
 
