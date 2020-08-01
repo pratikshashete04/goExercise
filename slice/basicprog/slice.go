@@ -10,7 +10,7 @@ func main() {
 	fmt.Println("Name of the company:", name)
 
 	// Creating a slice
-	myslice := name[0:4]
+	var myslice []string = name[0:4]
 
 	// Display the slice
 	fmt.Println("Slice :", myslice)
