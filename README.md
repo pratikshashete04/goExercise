@@ -11,7 +11,7 @@ func function_name(parameter_list) (return_types){
     body_of_the_function
 }
 
-==============================================================================
+============================================================================
 
 ## 2. Slice
 * Slice is more efficient, scalable, convenient than array and is a lightweight data structure in Go language.
@@ -20,7 +20,7 @@ func function_name(parameter_list) (return_types){
 * Inside slice and list are connected, a slice is a connection to an underlying sequence.
 * The duplicate items can be contained in the slice 
 
-==============================================================================
+============================================================================
 
 ## 3. Structs
 * A structure or struct in Golang is a user-defined type that allows to group/combine items of possibly different types into a single type. 
