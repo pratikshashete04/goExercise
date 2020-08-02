@@ -41,7 +41,7 @@ func (receiver_name Type) method_name (parameter list)(return type){
     body_of_the_method
 }
 
-* Difference between method and function:
+### Difference between method and function:
 - Method contain receiver; while function does not contain any receiver.
 - Method can accept both pointer and value; while function cannot accept both pointer and value.
 - Methods of the same name but different types can be defined in the program; while functions of the same name but different type are not allowed to define in the program.
