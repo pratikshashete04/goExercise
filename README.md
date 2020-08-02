@@ -26,3 +26,32 @@ func function_name(parameter_list) (return_types){
 * A structure or struct in Golang is a user-defined type that allows to group/combine items of possibly different types into a single type. 
 * Every object in real world that has any collection of properties/fields can be described as a struct.
 * It can be termed as a lightweight class that does not support inheritance but supports composition. 
+
+============================================================================
+
+### Day-2 :
+## 1. Method
+* Go methods are similar to Go function with one difference, i.e, the method contains a receiver argument in it.
+* The method can access the properties of the receiver with the help of the receiver argument.
+* Here, the receiver can be of struct type or non-struct type.
+
+* In Go programming language the general form of a method is as follows − 
+
+func (receiver_name Type) method_name (parameter list)(return type){
+    body_of_the_method
+}
+
+* Difference between method and function:
+- Method contain receiver; while function does not contain any receiver.
+- Method can accept both pointer and value; while function cannot accept both pointer and value.
+- Methods of the same name but different types can be defined in the program; while functions of the same name but different type are not allowed to define in the program.
+============================================================================
+
+## 1. Map
+* 
+
+
+============================================================================
+
+## 1. Pointer
+*
