@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// declaration of book struct
+// book structure
 type book struct {
 	author      string
 	publication string
