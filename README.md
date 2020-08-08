@@ -90,3 +90,17 @@ func function_name(para1, para2...type)type{
 * It is similar to accessing global variables which are available before the declaration of the function.
 
 ============================================================================
+
+## 9. Flow control statements:
+
+For loop:
+* Go has only one looping construct, the for loop.
+* The basic for loop has three components separated by semicolon (initial/condition/post).
+* "for" is Go's "while".
+
+* The syntax of a simple for loop is:
+for initialization; condition; post {
+  // statements..
+}
+_____________________________________________________________________________
+
