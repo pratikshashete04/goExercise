@@ -63,4 +63,12 @@ map[Key_Type]Value_Type{key1: value1, ..., keyN: valueN}
 ============================================================================
 
 ## 1. Pointer
-*
+* Pointers in Go programming language or Golang is a variable which is used to store the memory address of another variable.
+* Pointers in Golang is also termed as the special variables. 
+* The memory address is always found in hexadecimal format(starting with 0x like 0xFFAAF etc.).
+* The default value or zero-value of a pointer is always nil.
+
+* We can declare a pointer as follows:
+  var pointer_name *Data_Type
+
+============================================================================
