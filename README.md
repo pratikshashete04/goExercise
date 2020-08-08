@@ -153,3 +153,23 @@ switch optionalStatement; typeSwitchExpression{
   default: Statement..
 }
 _____________________________________________________________________________
+
+Defer:
+* In Go language, defer statements delay the execution of the function or method or an anonymous function until the nearby functions returns.
+syntax:
+// function
+defer func func_name(parameter_list Type) return_Type{
+  // code
+}
+
+// method
+defer func (receiver Type) method_name(parameter_list){
+  // code
+}
+
+// anonymous function
+defer func (parameter_list)(return_type){
+  // code
+}()
+
+============================================================================
