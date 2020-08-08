@@ -48,8 +48,17 @@ func (receiver_name Type) method_name (parameter list)(return type){
 =========================================================================
 
 ## 1. Map
-* 
+* Golang Maps is a collection of unordered pairs of key-value. 
+* It is widely used because it provides fast lookups and values that can retrieve, update or delete with the help of keys.
+* In maps the values are not unique like keys and can be of any type like int, float64, rune, string, pointer, reference type, map type, etc.
 
+* In Go programming language we can create a map using the following syntax:
+
+// An Empty map
+map[Key_Type]Value_Type{}
+
+// Map with key-value pair
+map[Key_Type]Value_Type{key1: value1, ..., keyN: valueN}
 
 ============================================================================
 
