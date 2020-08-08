@@ -129,3 +129,27 @@ if condition-1{
   // code to be executed if both condition-1 and condition-2 are false
 }
 _____________________________________________________________________________
+
+Switch:
+* In goLang the switch statement is a multi way branch statement.
+* It provides an efficient way to transfer the execution to different parts of a code based on the value(case) of the expression.
+* There are two types of switch statements:
+
+1.Expression Switch
+syntax:
+switch optionalStatement; optionalExpression{
+  case expression1: Statement..
+  case expression2: Statement..
+  ...
+  default: Statement
+}
+
+2.Type Switch
+syntax:
+switch optionalStatement; typeSwitchExpression{
+  case typeList 1: Statement..
+  case typeList 2: Statement..
+  ...
+  default: Statement..
+}
+_____________________________________________________________________________
