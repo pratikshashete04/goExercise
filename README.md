@@ -104,3 +104,28 @@ for initialization; condition; post {
 }
 _____________________________________________________________________________
 
+If, If-else:
+* The if statement: executes some code if the condition is true.
+syntax: 
+if condition{
+  // code to be executed if the condition is true
+}
+
+* The if...else statement: executes some code if the condition is true and another if that condition is false. 
+syntax:
+if condition{
+  // code to be executed if condition is true
+}else{
+  // code to be executed if the condition is false
+}
+
+* The if...else if...else statement: executes different code for more than two conditions.
+syntax:
+if condition-1{
+  // code to be executed if condition-1 is true
+}else if condition-1{
+  code to be executed if condition-2 is true
+}else{
+  // code to be executed if both condition-1 and condition-2 are false
+}
+_____________________________________________________________________________
