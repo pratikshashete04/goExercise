@@ -191,3 +191,16 @@ defer func (parameter_list)(return_type){
 * For that, we can use time.Sleep() call.
 
 ============================================================================
+
+## 12. Interface:
+* An interface is a collection of method signatures that a Type can implement.
+* Interface defines the behavior of the object of the type Type.
+* In Go language, it is necessary to implement all the methods declared in the interface for implementing an interface.
+* The Go language interfaces are implemented implicitly and it does not contain any specific keyword to implement an interface.
+* In Go language, we can create an interface by using following syntax:
+type interface_name interface{
+  // Method signatures
+}
+
+============================================================================
+
