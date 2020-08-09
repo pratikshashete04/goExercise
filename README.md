@@ -182,3 +182,12 @@ defer func (parameter_list)(return_type){
 * A bucket is simply a named collection of key/value pairs, just like Go's map.
 
 ============================================================================
+
+## 11. goroutine:
+* The goroutine is nothing but a function or method that is running in background concurrently with other goroutines.
+* Go provides a special keyword "go" to create goroutine.
+* When we call a  function or method with go prefix, then that function or method executes in a goroutine.
+* We can apss control to another goroutines manually by telling the scheduler to schedule another available goroutines.
+* For that, we can use time.Sleep() call.
+
+============================================================================
