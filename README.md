@@ -173,3 +173,12 @@ defer func (parameter_list)(return_type){
 }()
 
 ============================================================================
+
+## 10. Bbolt:
+* In Bolt we can store database as key/value pair.
+* Bolt is Go's package i.e. "github.com/boltdb/bolt".
+* Bolt is not a relational database, it is a NoSQL database.
+* Storage of data in bolt is divided into buckets.
+* A bucket is simply a named collection of key/value pairs, just like Go's map.
+
+============================================================================
