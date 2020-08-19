@@ -204,3 +204,12 @@ type interface_name interface{
 
 ============================================================================
 
+## 13. WaitGroup:
+* The WaitGroup in GoLang is actually a type of counter which blocks the execution of function/goroutine until it's internal counter become 0.
+
+* WaitGroup exports 3 methods:
+* 1.Add(int) : It increases WaitGroup counter by given integer value.
+* 2.Done() : It decreases WaitGroup counter by 1.
+* 3.Wait() : It blocks the execution until it's internal counter becomes 0.
+
+============================================================================
